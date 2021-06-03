@@ -249,3 +249,88 @@ input {
             padding: 10px 0;
         }
     }
+
+       /* ----------- table styling  */
+    
+    
+    table.score-table {
+        width: 100%;
+    }
+    
+    td,
+    th {
+        width: 7rem;
+        height: 2.5rem;
+        border: 1px solid #ccc;
+        text-align: center;
+    }
+    
+    th {
+        background: #48bcf3;
+        border-color: white;
+    }
+    
+    th.highlight {
+        background: lightblue;
+        border-color: white;
+    }
+    
+    body {
+        padding: 1rem;
+        font-family: Roboto;
+    }
+    /*.. slider ..*/
+    
+    .img-slider img {
+        height: 300px;
+        object-fit: cover;
+    }
+    /*.. slider ..*/
+    /*.. golf course info ..*/
+    
+    .golf-course-info .info-inner {
+        border: 4px solid #000000a5;
+        background-color: rgba(44, 204, 151, 0.138);
+        margin-bottom: 30px;
+    }
+    /*.. golf course info ..*/
+    /*----------------------------------Footer */
+    
+    footer {
+        background-color: #525252;
+        color: #fafafa;
+        min-height: 120px;
+        margin: 0;
+    }
+    
+    .inline-block {
+        display: inline-block;
+    }
+    
+    .social-links {
+        padding-bottom: 15px;
+    }
+    
+    .social-links li a i {
+        width: 32px;
+        height: 32px;
+        padding: 12px 0;
+        border-radius: 50%;
+        font-size: 13px;
+        line-height: 7px;
+        text-align: center;
+        color: #fafafa;
+        background: #8f8f8f;
+        transition: all 0.35s ease-in-out;
+        -moz-transition: all 0.35s ease-in-out;
+        -webkit-transition: all 0.35s ease-in-out;
+        -o-transition: all 0.35s ease-in-out;
+    }
+    
+    .social-links li a i:hover {
+        background: #e84610;
+    }
+    
+    #footer-details {
+        padding: 20px;
+    }
