@@ -54,7 +54,7 @@ Here is the deployed version on the site :
 
     #### Wireframe 1 - Desktop View
 
-    ![home page](/images/new_main_banner.jpg "Index.html Desktop Wireframe" )
+    ![home page - golf background](/images/new_main_banner.jpg "Index.html Desktop Wireframe" )
 
     *Fig 1. Desktop Landing Page *
 

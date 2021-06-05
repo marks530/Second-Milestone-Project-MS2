@@ -6,5 +6,5 @@ __pycache__/
 *.py[cod]
 node_modules/
 .history/
-.gitpod.yml
-.gitpod.dockerfile
+gitpod.yml
+gitpod.dockerfile
