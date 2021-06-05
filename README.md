@@ -1,8 +1,11 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
+<h1 align="center">Interactive Frontend Milestone 2 Project 
+<h2 align="center">Automate your Golfing experience :robot: </h2>
 
 
-Here is the deployed version on the site : https://marks530.github.io/Second-Milestone-Project-MS2/ (here)[https://marks530.github.io/Second-Milestone-Project-MS2/]
+Here is the deployed version on the site : 
+**[Golf Score App](https://marks530.github.io/Second-Milestone-Project-MS2/)**
 
 Welcome marks530,
 
