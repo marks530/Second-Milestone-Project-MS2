@@ -54,7 +54,7 @@ Here is the deployed version on the site :
 
     Wireframes etc.
 
-    # **Features**
+    ## **Features**
 
     #### **Existing features**
 
@@ -66,8 +66,6 @@ Here is the deployed version on the site :
     -   [Javascript](https://www.javascript.com/)
     -   [CSS3](https://www.w3schools.com/css/default.asp)
     -   [HTML5](https://www.w3schools.com/html/) 
-
-    ### **Languages**
 
 
     ## Testing
