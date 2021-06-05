@@ -56,6 +56,12 @@ function getArrayTotal() {
     return total;
 }
 
+function putTotal() {
+    totalScore = document.getElementById("total-score").innerHTML;
+
+
+}
+
 btn.onclick = function() {
     let inputElement = document.getElementById("answer-box");
     let answer = parseInt(inputElement.value);
