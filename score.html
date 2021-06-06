@@ -8,9 +8,9 @@
     <title>Score Entry</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <!-- <link href="/Users/marksmyth/Desktop/Latest/css/style.css" rel="stylesheet" type="text/css" /> -->
-    <link rel="stylesheet" href="css/script.css">
 </head>
 
 <body>
@@ -47,168 +47,187 @@
         <section>
             <div class="jumbotron text-center">
                 <h1 class="uppercase"> Graduate Society Summer Golf Outing!<br>Score Card</h1>
-                <p class="uppercase">
-                </p>
+
             </div>
         </section>
 
     </div>
-</div>
-<!---Add log in form for Player Name-->
-<div class="container">
-    <form class="log-in">
-        <div class="form-group">
-            <label for="name" text="uppercase">NAME</label>
-            <input type="name" class="form-control" id="name" aria-describedby="name" placeholder="Enter full name">
 
-        </div>
+    <!---Add log in form for Player Name-->
+    <div class="container">
+        <form class="log-in">
+            <div class="form-group">
+                <label for="name" text="uppercase">NAME</label>
+                <input type="name" class="form-control" id="name" aria-describedby="name" placeholder="Enter full name">
 
-        <button id="login" type="button" onclick="getInputValue()" class="btn btn-primary">Click to enter your score</button>
-    </form>
-</div>
-<!--header-->
-<h1 class="heading">
-    <img src="images/golf_ball_logo1.jpg" class="logo"> Score Entry for each Golf Hole
-</h1>
-<!---Score entry Section with buttons-->
-<div class="score-entry">
-    <div class="score-area">
-        <h1>Hole <span id="hole-count">1</span></h1>
+            </div>
 
-        <button data-type="increment" class="btn btn--big btn--green">
+            <button id="login" type="button" onclick="getInputValue()" class="btn btn-primary">Click to enter your score</button>
+        </form>
+    </div>
+    <!--header-->
+    <h1 class="heading">
+        <img src="images/golf_ball_logo1.jpg" class="logo"> Score Entry for each Golf Hole
+    </h1>
+    <!---Score entry Section with buttons-->
+    <div class="score-entry">
+        <div class="score-area">
+            <h1>Hole <span id="hole-count">1</span></h1>
+
+            <button data-type="increment" class="btn btn--big btn--green">
         <i class="fas fa-plus"></i>
     </button>
-        <span>
+            <span>
         <input id="answer-box" name="answer" type="number" placeholder=4></span>
 
-        <button data-type="decrement" class="btn btn--big btn--blue">
+            <button data-type="decrement" class="btn btn--big btn--blue">
         <i class="fas fa-minus"></i>
     </div>
 
     <button id = "submitBtn" data-type="submit" class="btn btn--gray">Submit Score</button>
-    </div>
-    <!---Score Card Section-->
-    <div class="score-card">
-        <h2 id="player-name">Player Name</h2>
-        <table class="score-table">
-            <tr>
-                <th></th>
-                <th>Par</th>
-                <th>Index</th>
-                <th>Strokes</th>
-                <th>Points</th>
-            </tr>
-            <tr>
-                <th class="highlight">Hole 1</th>
-                <td>5</td>
-                <td>9</td>
-                <td id='result0'></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th class="highlight">Hole 2</th>
-                <td>4</td>
-                <td>15</td>
-                <td id='result1'></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th class="highlight">Hole 3</th>
-                <td>3</td>
-                <td>5</td>
-                <td id='result2'></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th class="highlight">Hole 4</th>
-                <td>4</td>
-                <td>1</td>
-                <td id='result3'></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th class="highlight">Hole 5</th>
-                <td>5</td>
-                <td>11</td>
-                <td id='result4'></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th class="highlight">Hole 6</th>
-                <td>4</td>
-                <td>13</td>
-                <td id='result5'></td>
-                <td></td>
-            </tr>
-
-            <tr>
-                <th class="highlight">Hole 7</th>
-                <td>3</td>
-                <td>7</td>
-                <td id='result6'></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th class="highlight">Hole 8</th>
-                <td>5</td>
-                <td>17</td>
-                <td id='result7'></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th class="highlight">Hole 9</th>
-                <td>4</td>
-                <td>3</td>
-                <td id='result8'></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th class="highlight">Total</th>
-                <td></td>
-                <td></td>
-                <td id="total-score"></td>
-                <td></td>
-            </tr>
-        </table>
-    </div>
-    <footer class="bg-light text-center text-white">
-        <!-- Grid container -->
-        <div class="container p-4 pb-0">
-            <!-- Section: Social media -->
-            <section class="mb-4">
-                <!-- Facebook -->
-                <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998;" href="#!" role="button"><i class="fab fa-facebook-f"></i
-        ></a>
-
-                <!-- Twitter -->
-                <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee;" href="#!" role="button"><i class="fab fa-twitter"></i
-        ></a>
-
-                <!-- Google -->
-                <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39;" href="#!" role="button"><i class="fab fa-google"></i
-        ></a>
-
-                <!-- Instagram -->
-                <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac;" href="#!" role="button"><i class="fab fa-instagram"></i
-        ></a>
-
-                <!-- Linkedin -->
-                <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca;" href="#!" role="button"><i class="fab fa-linkedin-in"></i
-        ></a>
-                <!-- Github -->
-                <a class="btn btn-primary btn-floating m-1" style="background-color: #333333;" href="#!" role="button"><i class="fab fa-github"></i
-        ></a>
-            </section>
-            <!-- Section: Social media -->
         </div>
-        <!-- Grid container -->
+        <!---Score Card Section-->
+        <div class="score-card">
+            <h2 id="player-name">Player Name</h2>
+            <table class="score-table">
+                <tr>
+                    <th></th>
+                    <th>Par</th>
+                    <th>Index</th>
+                    <th>Strokes</th>
+                    <th>Points</th>
+                </tr>
+                <tr>
+                    <th class="highlight">Hole 1</th>
+                    <td>5</td>
+                    <td>9</td>
+                    <td id='result0'></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th class="highlight">Hole 2</th>
+                    <td>4</td>
+                    <td>15</td>
+                    <td id='result1'></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th class="highlight">Hole 3</th>
+                    <td>3</td>
+                    <td>5</td>
+                    <td id='result2'></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th class="highlight">Hole 4</th>
+                    <td>4</td>
+                    <td>1</td>
+                    <td id='result3'></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th class="highlight">Hole 5</th>
+                    <td>5</td>
+                    <td>11</td>
+                    <td id='result4'></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th class="highlight">Hole 6</th>
+                    <td>4</td>
+                    <td>13</td>
+                    <td id='result5'></td>
+                    <td></td>
+                </tr>
 
-        <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            © 2021 Copyright:
-            <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+                <tr>
+                    <th class="highlight">Hole 7</th>
+                    <td>3</td>
+                    <td>7</td>
+                    <td id='result6'></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th class="highlight">Hole 8</th>
+                    <td>5</td>
+                    <td>17</td>
+                    <td id='result7'></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th class="highlight">Hole 9</th>
+                    <td>4</td>
+                    <td>3</td>
+                    <td id='result8'></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th class="highlight">Total</th>
+                    <td></td>
+                    <td></td>
+                    <td id="total-score"></td>
+                    <td></td>
+                </tr>
+            </table>
         </div>
-        <!-- Copyright -->
+    </div>
+    <!-----------------Footer-------->
+    <footer class="container-fluid">
+        <div id="footer-details" class="row">
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">About Us</h5>
+                <p class="inline-block">
+                    Welcome to the new Score Entry app for casual golfers
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">More Info</h5>
+                <p class="inline-block">
+                    Let us know about your next Society Outing
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">Social</h5>
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.facebook.com">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://twitter.com/">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.linkedin.com/">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            <span class="sr-only">LinkedIn</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.pinterest.ie/">
+                            <i class="fa fa-pinterest" aria-hidden="true"></i>
+                            <span class="sr-only">Pinterest</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.instagram.com/">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.youtube.com/">
+                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">YouTube</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/script.js"></script>
