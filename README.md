@@ -78,6 +78,7 @@ Here is the deployed version on the site :
 
     ## Bugs
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+    This link was causing problems in the footer section not working to display the logos for the social media links. Using a link with version 4.7.0 fixed the problems. I intend to investigate this issue when more time is available 
     ## Deployment
 
     I had a minor issue whilst deploying via Github pages as originally my html files were in a folder in the root filesystem. Once I deployed to Github pages, I was only able to view the README.md. To rectify this I simply moved my html files to the root folder of the project.  
