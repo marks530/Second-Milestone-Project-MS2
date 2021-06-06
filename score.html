@@ -22,18 +22,22 @@
         <!-- main nav -->
         <div class="main-nav">
             <!-------Navbar with hamburger element--->
-            <nav class="navbar navbar-custom navbar-expand-lg navbar-light bg-light container">
-                <a class="navbar-brand" href="images/golf_ball_logo1.jpg">Graduate Society Golf Outing</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-    </button>
+            <nav class="navbar navbar-custom navbar-expand-lg
+                        navbar-light bg-light container">
+                <a class="navbar-brand">Graduate Society Golf Outing</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle
+                            navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Golf Outing <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="index.html">Golf
+                                        Outing <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="score.html">Score Entry</a>
+                            <a class="nav-link" href="score.html">Score
+                                        Entry</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="leaderboard.html">Leaderboard</a>
@@ -46,7 +50,8 @@
         </div>
         <section>
             <div class="jumbotron text-center">
-                <h1 class="uppercase"> Graduate Society Summer Golf Outing!<br>Score Card</h1>
+                <h1 class="uppercase"> Graduate Society Summer Golf Outing!<br>Score Card
+                </h1>
 
             </div>
         </section>
@@ -59,10 +64,9 @@
             <div class="form-group">
                 <label for="name" text="uppercase">NAME</label>
                 <input type="name" class="form-control" id="name" aria-describedby="name" placeholder="Enter full name">
-
             </div>
 
-            <button id="login" type="button" onclick="getInputValue()" class="btn btn-primary">Click to enter your score</button>
+            <button id="login" type="button" onclick="refreshBoard()" class="btn btn-primary">Click to enter your score</button>
         </form>
     </div>
     <!--header-->
@@ -75,16 +79,18 @@
             <h1>Hole <span id="hole-count">1</span></h1>
 
             <button data-type="increment" class="btn btn--big btn--green">
-        <i class="fas fa-plus"></i>
-    </button>
+                    <i class="fas fa-plus"></i>
+                </button>
             <span>
-        <input id="answer-box" name="answer" type="number" placeholder=4></span>
+                    <input id="answer-box" name="answer" type="number"
+                        placeholder=4></span>
 
             <button data-type="decrement" class="btn btn--big btn--blue">
-        <i class="fas fa-minus"></i>
-    </div>
+                    <i class="fas fa-minus"></i>
+                </div>
 
-    <button id = "submitBtn" data-type="submit" class="btn btn--gray">Submit Score</button>
+                <button id="submitBtn" data-type="submit" class="btn btn--gray">Submit
+                    Score</button>
         </div>
         <!---Score Card Section-->
         <div class="score-card">

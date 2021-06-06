@@ -24,15 +24,22 @@ function init() {
     // Sets the par value of the first hole from the score card table to the score box when the page loads
     document.getElementById("answer-box").value = document.getElementsByTagName('tr')[count + 1].children[1].innerHTML.trim();
     console.log("This item is in initDefault " + document.getElementsByTagName('tr')[count + 1].children[1].innerHTML.trim());
+
 }
 
 document.addEventListener("DOMContentLoaded", init);
 
 //Function to get the players name and enter it at the top of the score card
 function getInputValue() {
-    let inputVal = document.getElementById("name").value;
-    document.getElementById("player-name").innerHTML = inputVal;
-    return inputVal;
+    return document.getElementById("name").value
+}
+
+function refreshBoard() {
+    init();
+    for (let i = 0; i < 9; i++)
+        document.getElementById('result' + i).innerHTML = "";
+    document.getElementById('total-score').innerHTML = "";
+    document.getElementById("player-name").innerHTML = getInputValue();
 }
 
 let count;
