@@ -39,19 +39,6 @@ The goal of the project is to provide a web based application to groups of casua
 As this is a project to be completed for a Milestone Project for the Code Institute the goal is to create an interactive website demonstrating this skills learn in the second phase of the course.
 The project was created using HTML CSS and JavaScript and is ready for further development. I would like very much to develop the project using the new skills that I will learn in the next stages of the course such as adding a database to store user statistics. This can be done back-end applications and using the Python language.
 
-
-
-##Colors
-The use of lots of images of the golf courses meant that the dominant color of the home page would be green which is always pleasant to look at.
-The colours used score entry page were designed to give clarity and easy to see figures and highlight the entries with a grey background in the score entry area and the score card columns. The hole numbers are shown in light blue
-I set the colors of the submit button so that the button message was always visable dark grey initially and changing the light blue on hover
-
-##Fonts 
-I continued the use of the recommended fonts of Raleway with sans serif as backup
-
-##Structure
-
-
     ## User Goals
 The user of the site will be initially be the organizer of the event usually the captain of the golf society. The captain will set up the event and he will then instruct the competitors to log in with their names and be taken to the score entry page.
 This method of collecting scores will give the organizer a immediate update on the players scores and information on who is leading the competition. The player who is entering his score will get a total of the number of strokes and a verification that his score has been entered on the system
@@ -72,9 +59,9 @@ This application will reduce the onerous task of collating all the scores for al
 The site owner is getting a web application which has copied a typical score entry system used in golf clubs and is making it available to casual golfers and golf society members. (Golf Societies are groups of amateur golfers that have formed to enable the members to be involved in golf tournaments without being members of a golf club. Usually societies are formed in a workplace or a social gathering point such as a pub). In the club environment this service is provided by Howdiddo.com and it works so well it is in constant use. 
 Scores for each golf tournament are stored and available to the user at any time. The site owner is offering an effective professional service to the amateur golfer. Golfers casual or club members are hugely interested in their statistics the score achieved, each round the number of points scored, reducing their handicap, the list goes on.
 All of which means that golfers players users(the terms are all interchangeable here) are all regularly referring to the database of their statistics and thereby looking up information from the website. The service is intended to be free to use with sign up and log in required. As in the professional environment the user is presented with stream of advertising for all sorts of golf products and services. This provides the site owner will regular users who can be exposed to relevant advertising.
+    
     ## UX
-
-    Ux
+   
 
     ## Design Choices
 
