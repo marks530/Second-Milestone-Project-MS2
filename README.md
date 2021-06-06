@@ -72,28 +72,24 @@ The page layout contains a navigation bar, a banner image, a welcome message and
 In the center of the page is the "Score Entry" button which is the call to action for the page. This takes the user to the score entry page 
 
 This page contains the business area of the site. The layout directs the user to log in and enter their score via the score entry area to appear in the score card table. The structure and layout of the score entry area is based on the Maths game used in the JavaScript course. The increment and decrement were a perfect fit for the score entry structure. The JavaScript content takes some elements from the game but is largely modified. Extra functions to get the players name, fetch the par values and present them in the score entry box, log the scores in the score card, total the numbers of strokes and add the total score to the score card Leaderboard Page
-## Wireframes
-
-    Wireframe 1 - Desktop View
-
-    -[home page - golf background](wireframes/index_desktop.jpg "Index.html Desktop Wireframe" )
-    -[score entry page - score card] (wireframes/score_entry_desktop.jpg) "Score.html Desktop Wireframe
-    *Fig 1. Desktop Landing Page *
-
-    Wireframes etc.
+## Wireframe
+-[home page - golf background](wireframes/index_desktop.jpg "Index.html Desktop Wireframe")
+-[score entry page - score card] (wireframes/score_entry_desktop.jpg "Score.html Desktop Wireframe")
+    Fig 1. Desktop Landing Page
     
-    ## **Features**
+    
+    ## Features
 
-    #### **Existing features**
+    #### Existing features**
 
     #### **Features Left to Implement** 
     As the project was implemented using only front-end interactive technologies there is plenty of scope for development by employing backend services. In order to keep the user coming back to the site records of each event and associated statistics could be made available. The user could look up every time a round of golf was played and the individual scores at the time. Using the historical data a host of other useful statistics can be calculated. The user can measure their performance over time. As with similar sites relevant advertisements can be displayed to the user and an e-commerce utility could be added to the site
 
   ## Technologies Used
 
-    -   [Javascript](https://www.javascript.com/)
-    -   [CSS3](https://www.w3schools.com/css/default.asp)
-    -   [HTML5](https://www.w3schools.com/html/)
+    - [Javascript](https://www.javascript.com/)
+    - CSS3](https://www.w3schools.com/css/default.asp)
+    - [HTML5](https://www.w3schools.com/html/)
     
     
     ## Testing
