@@ -73,8 +73,8 @@ In the center of the page is the "Score Entry" button which is the call to actio
 
 This page contains the business area of the site. The layout directs the user to log in and enter their score via the score entry area to appear in the score card table. The structure and layout of the score entry area is based on the Maths game used in the JavaScript course. The increment and decrement were a perfect fit for the score entry structure. The JavaScript content takes some elements from the game but is largely modified. Extra functions to get the players name, fetch the par values and present them in the score entry box, log the scores in the score card, total the numbers of strokes and add the total score to the score card Leaderboard Page
 ## Wireframes
-![home page - golf background](https://github.com/marks530/Second-Milestone-Project-MS2/blob/87d9b4453526ce4391b002cb73d96c69efb55338/wireframes/index_desktop.jpgjpg)
-![score entry page - score card] (https://github.com/marks530/Second-Milestone-Project-MS2/blob/87d9b4453526ce4391b002cb73d96c69efb55338/wireframes/score_entry_desktop.jpg)
+![home page - golf background](https://github.com/marks530/Second-Milestone-Project-MS2/blob/87d9b4453526ce4391b002cb73d96c69efb55338/wireframes/index_desktop.jpgjpg "Index.html home page")
+![score entry page - score card] (https://github.com/marks530/Second-Milestone-Project-MS2/blob/87d9b4453526ce4391b002cb73d96c69efb55338/wireframes/score_entry_desktop.jpg "Score.html score entry page")
     
     
     
