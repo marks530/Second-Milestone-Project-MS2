@@ -1,5 +1,6 @@
 // Wait until the DOM has loaded before running the app
 // Get the button elements, and add event listeners to them
+const LOCAL_STORAGE_GAME_SCORES = "LOCAL_STORAGE_GAME_SCORES";
 
 function init() {
     let buttons = document.getElementsByTagName("button");
@@ -58,8 +59,22 @@ function getArrayTotal() {
 
 function putTotal() {
     totalScore = document.getElementById("total-score").innerHTML;
+}
 
+//Function to store the total number of strokes in the total space in the table
+function displayTotal() {
+    document.getElementById("total-score").innerHTML = getArrayTotal();
 
+}
+
+function saveScores() {
+    let scores = localStorage.getItem(LOCAL_STORAGE_GAME_SCORES);
+    if (!scores)
+        scores = JSON.stringify({}); //JSON.stringify convert javascript objet to a JSON object
+    let scoresObject = JSON.parse(scores); //JSON.parse convert JSON objet to a javascript object
+    let name = document.getElementById('name').value;
+    scoresObject[name] = getArrayTotal();
+    localStorage.setItem(LOCAL_STORAGE_GAME_SCORES, JSON.stringify(scoresObject))
 }
 
 btn.onclick = function() {
@@ -80,7 +95,9 @@ btn.onclick = function() {
         holeCount.innerHTML = count + 1;
     } else {
 
-        alert("Congratulations," + getInputValue().split([0]) + " you got a total of " + getArrayTotal());
+        alert("Congratulations, " + getInputValue() + " you got a total of " + getArrayTotal());
+        displayTotal();
+        saveScores();
         init();
 
     }
