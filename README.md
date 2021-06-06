@@ -77,6 +77,7 @@ Here is the deployed version on the site :
     ## Testing
 
     ## Bugs
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
     ## Deployment
 
     I had a minor issue whilst deploying via Github pages as originally my html files were in a folder in the root filesystem. Once I deployed to Github pages, I was only able to view the README.md. To rectify this I simply moved my html files to the root folder of the project.  
