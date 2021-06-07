@@ -116,7 +116,7 @@ In order to keep the user coming back to the site records of each event and asso
 
 Testing was done 
 ## Bugs
-
+During testing I discovered that on the iPad in Chrome Dev Tools the score entry section is jumbled yet it works on an iPad Pro. I didn't have time to correct this before the deadline  
 This link was causing problems in the footer section not working to display the logos for the social media links. Using a link with version 4.7.0 fixed the problems. I intend to investigate this issue when more time is available.
 
 [StackOverflow](https://stackoverflow.com/questions/48919200/github-pages-only-showing-readme-file) whilst trying to deploy I could only see my ReadMe on Github Pages
@@ -130,13 +130,13 @@ add links here to deployed site
 https://marks530.github.io/Second-Milestone-Project-MS2/index.html
 
 
-CLI commands 
+**CLI commands** 
 
 ```
-    git add 
-    git commit -m 
-    git push 
-    git status
+git add 
+git commit -m 
+git push 
+git status
 
 ``` 
 
