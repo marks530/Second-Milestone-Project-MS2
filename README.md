@@ -92,7 +92,7 @@ The leaderboard page contains a table with a column for the players names and a 
   ## Technologies Used
   
   ## Testing
-  ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+  ![alt text](https://github.com/marks530/Second-Milestone-Project-MS2/blob/master/wireframes/score_entry_iphone.png "Logo Title Text 1")
   
   ## Bugs
   This link was causing problems in the footer section not working to display the logos for the social media links. Using a link with version 4.7.0 fixed the problems. I intend to investigate this issue when more time is available.
