@@ -77,8 +77,8 @@ function displayTotal() {
 function saveScores() {
     let scores = localStorage.getItem(LOCAL_STORAGE_GAME_SCORES);
     if (!scores)
-        scores = JSON.stringify({}); //JSON.stringify convert javascript objet to a JSON object
-    let scoresObject = JSON.parse(scores); //JSON.parse convert JSON objet to a javascript object
+        scores = JSON.stringify({}); //JSON.stringify convert Javascript objet to a JSON object
+    let scoresObject = JSON.parse(scores); //JSON.parse convert JSON objet to a Javascript object
     let name = document.getElementById('name').value;
     scoresObject[name] = getArrayTotal();
     localStorage.setItem(LOCAL_STORAGE_GAME_SCORES, JSON.stringify(scoresObject))

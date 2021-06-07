@@ -67,11 +67,14 @@ The layout of the page is based on the score entry system used by HowdidIdo.com 
 This combination seemed to fit perfectly the requirements for the purpose.
 The increment/decrement buttons around the par value and the hole count keeping track of the hole number
 
-The landing page is created with a welcome message and many images of the golf course included in the event.
+###The landing page
+
+ is created with a welcome message and many images of the golf course included in the event.
 The page layout contains a navigation bar, a banner image, a welcome message and event details section, a carousel with multiple images of the golf course, an information section and a footer.
 In the center of the page is the "Score Entry" button which is the call to action for the page. This takes the user to the score entry page 
 
-This page contains the business area of the site. The layout directs the user to log in and enter their score via the score entry area to appear in the score card table. The structure and layout of the score entry area is based on the Maths game used in the JavaScript course. The increment and decrement were a perfect fit for the score entry structure. The JavaScript content takes some elements from the game but is largely modified. Extra functions to get the players name, fetch the par values and present them in the score entry box, log the scores in the score card, total the numbers of strokes and add the total score to the score card Leaderboard Page
+This page contains the business area of the site. The layout directs the user to log in and enter their score via the score entry area to appear in the score card table. The structure and layout of the score entry area is based on the Maths game used in the JavaScript course. The increment and decrement were a perfect fit for the score entry structure. The JavaScript content takes some elements from the game but is largely modified. Extra functions to get the players name, fetch the par values and present them in the score entry box, log the scores in the score card, total the numbers of strokes and add the total score to the score card 
+The leaderboard page contains a table with a column for the players names and a column for the total scores for each individual. The structure is based on the local storage property that allows access to a storage object saved across browser sessions. This accessed by functions created in both the JavaScript files on the site. The site is configured for a maximum of 9 players but can easily be extended
 ## Wireframes
 ![home page - golf background](https://github.com/marks530/Second-Milestone-Project-MS2/blob/87d9b4453526ce4391b002cb73d96c69efb55338/wireframes/index_desktop.jpgjpg "Index.html home page")
 ![score entry page - score card] (https://github.com/marks530/Second-Milestone-Project-MS2/blob/87d9b4453526ce4391b002cb73d96c69efb55338/wireframes/score_entry_desktop.jpg "Score.html score entry page")
