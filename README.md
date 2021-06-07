@@ -30,9 +30,9 @@ Here is the deployed version on the site :
 - [**Footnote**](footnote)    
     
 
-    ## Project Introduction UX
+    ## Project Introduction
     Golf is played in Ireland by over 180,000 people. This is the number of registered players who are members of golf clubs. It is also played by a huge number of people who are not members of clubs and who play golf regularly. They are very often members of golf societies. Golf societies are groups of amateur/casual golfers that have been formed to enable the society members to be involved in golf tournaments without being actual members of a golf club. Usually societies are formed in a workplace or a social gathering point such as a sports club or a pub.
-    Golf club have only recently(in the last 5 years) updated their IT systems to allow scores and golf handicaps to be collected digitally. This is a great benefit to clubs members. They can look up their scores from all of the tournaments included in the system. This service is provided by a company called Howdiddo.com and is so successful is hard to imagine ever being without it.
+    Golf club have only recently(in the last 5 years) updated their IT systems to allow scores and golf handicaps to be collected digitally. This is a great benefit to clubs members. They can look up their scores from all of the tournaments included in the system. This service is provided by a company called [Howdidido](https://www.howdidido.com/Account/Login?returnUrl=%2f) and is so successful is hard to imagine ever being without it.
     This project is about replicating that service for the casual golfer. 
 
     ## Project Goals
@@ -82,27 +82,44 @@ The leaderboard page contains a table with a column for the players names and a 
 
  
 ## Wireframes
-![alt text](https://github.com/marks530/Second-Milestone-Project-MS2/blob/master/wireframes/score_entry_iphone.png "Logo Title Text 1")
+I have in included three desktop wireframes, one for iphone and one for ipad
+Desktop Wireframes:
+
+iPad Wireframe:
+
+iPhone Wireframe:
+![alt text](https://github.com/marks530/Second-Milestone-Project-MS2/blob/master/wireframes/score_entry_iphone.png "iPhone score entry wireframe")
 ## Features
+The site is made up of three html pages supported by a css file and two javascript files. The home page has no interactive features with the exception of a link button. The score entry page gather the players name and their score and the leaderboard page stores the player name and the total score.
 The main features of the site are the interactive score card and leaderboard which allow the user view playing statistics and those of fellow competitors.
 A carousel on the home page can show a range of images of a given course. Many more images can easily be added.
-#### **Features Left to Implement** 
-    As the project was implemented using only front-end interactive technologies there is plenty of scope for development by employing backend services. 
-    The app was setup with 9 holes and a limit of 9 players. It would be very easy to extend this. But the first task was to get the app to work and then to extend later. I will look at improving the user experience by experimenting with different layouts and use of buttons 
-    
-    In order to keep the user coming back to the site records of each event and associated statistics could be made available. The user could look up every time a round of golf was played and the individual scores at the time. Using the historical data a host of other useful statistics can be calculated. The user can measure their performance over time. As with similar sites relevant advertisements can be displayed to the user and an e-commerce utility could be added to the site
-    Using the landing page with its carousel and banner image it is possible to show multiple images of a given course and it would be a feature that could be extended over time. Templates could be set up for any number of different courses
+#### Features Left to Implement 
+As the project was implemented using only front-end interactive technologies there is plenty of scope for development by employing backend services. The app was setup with 9 holes and a limit of 9 players. It would be very easy to extend this. But the first task was to get the app to work and then to extend later. I will look at improving the user experience by experimenting with different layouts and use of buttons 
+
+In order to keep the user coming back to the site records of each event and associated statistics could be made available. The user could look up every time a round of golf was played and the individual scores at the time. Using the historical data a host of other useful statistics can be calculated. The user can measure their performance over time. As with similar sites relevant advertisements can be displayed to the user and an e-commerce utility could be added to the site.Using the landing page with its carousel and banner image it is possible to show multiple images of a given course and it would be a feature that could be extended over time. Templates could be set up for any number of different courses
   ## Technologies Used
-  
+  ![JavaScript]
+  ![HTML]
+  ![CSS]
   ## Testing
-  
+Testing was done 
   
   ## Bugs
   This link was causing problems in the footer section not working to display the logos for the social media links. Using a link with version 4.7.0 fixed the problems. I intend to investigate this issue when more time is available.
   
   ## Deployment
   
-  
+  ## Credits 
+
+  I found [w3schools](https://www.w3schools.com//) to be extremely helpful
+
+  [css-tricks](https://css-tricks.com//) was another site I found to be useful
+
+  [Bootstrap 4](https://getbootstrap.com/docs/4.1/components/) documents proved to be 
+
+  [Javascript docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+
   
   ## Content
   
