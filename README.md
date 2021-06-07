@@ -82,17 +82,20 @@ The leaderboard page contains a table with a column for the players names and a 
 
  
 ## Wireframes
-/Users/marksmyth/Second-Milestone-Project-MS2/wireframes/index_desktop.jpg
+![alt text](https://github.com/marks530/Second-Milestone-Project-MS2/blob/master/wireframes/score_entry_iphone.png "Logo Title Text 1")
 ## Features
-
-#### Existing features**
+The main features of the site are the interactive score card and leaderboard which allow the user view playing statistics and those of fellow competitors.
+A carousel on the home page can show a range of images of a given course. Many more images can easily be added.
 #### **Features Left to Implement** 
-    As the project was implemented using only front-end interactive technologies there is plenty of scope for development by employing backend services. In order to keep the user coming back to the site records of each event and associated statistics could be made available. The user could look up every time a round of golf was played and the individual scores at the time. Using the historical data a host of other useful statistics can be calculated. The user can measure their performance over time. As with similar sites relevant advertisements can be displayed to the user and an e-commerce utility could be added to the site
-
+    As the project was implemented using only front-end interactive technologies there is plenty of scope for development by employing backend services. 
+    The app was setup with 9 holes and a limit of 9 players. It would be very easy to extend this. But the first task was to get the app to work and then to extend later. I will look at improving the user experience by experimenting with different layouts and use of buttons 
+    
+    In order to keep the user coming back to the site records of each event and associated statistics could be made available. The user could look up every time a round of golf was played and the individual scores at the time. Using the historical data a host of other useful statistics can be calculated. The user can measure their performance over time. As with similar sites relevant advertisements can be displayed to the user and an e-commerce utility could be added to the site
+    Using the landing page with its carousel and banner image it is possible to show multiple images of a given course and it would be a feature that could be extended over time. Templates could be set up for any number of different courses
   ## Technologies Used
   
   ## Testing
-  ![alt text](https://github.com/marks530/Second-Milestone-Project-MS2/blob/master/wireframes/score_entry_iphone.png "Logo Title Text 1")
+  
   
   ## Bugs
   This link was causing problems in the footer section not working to display the logos for the social media links. Using a link with version 4.7.0 fixed the problems. I intend to investigate this issue when more time is available.
