@@ -18,7 +18,6 @@ Here is the deployed version on the site :
 - [**Design Choices**](#design-choices)
 - [**Wireframes**](#wireframes)
 - [**Features**](#features)
-	- [Existing features](#existing-features)
 	- [Features left to implement](#features-left-to-implement)       
 - [**Technologies Used**](#technologies-used)
 - [**Testing**](#testing)	
@@ -46,13 +45,16 @@ The player can also view the leaderboard and see how they have fared in the comp
 
 The user/player is introduced to the site by the event organizer.
 When the user connects to the website he/she is presented with event information. The home page contains images of the course they are playing and details of the days timetable.
+
 When the player has finished their round they connect to the site and click in the "Score Entry" button.
 They are presented with a score card in the form of a table showing the the golf hole number, the golf hole index (which is the degree of difficulty of the each hole 1 being the most difficult) and the empty score area. The table also shows the par value for each of the golf holes which is the expected score for each hole. The par 3 holes are usually the shortest usually reachable in one shot, the 
 par 4 holes are longer and reachable in 2 shots and the par 5 holes are the longest reachable in 3 shots. 
-Above the score card the user will find the score entry area with a header showing a hole number, an increment and decrement buttons and the score entry box. 
+Above the score card the user will find the score entry area with a header showing a hole number, an increment and decrement buttons and the score entry box.
+
 The score entry area is programmed the present the golf holes starting at hole 1 and ending at hole 9 (18 holes will introduced as the app evolves)and the score entry box will already contain the par value for the given hole and that will be the default score for each hole. 
 This application will reduce the onerous task of collating all the scores for all the players and the organizer. At the moment the application is limited in its scope and will be developed as the Full Stack course progress.
 The user enters their name and hits the "Click to enter Score button" and the name is entered above the score card. They then proceed to enter their score by using the increment/decrement buttons and clicking the submit button when the score is correct. So all the scores are entered with clicks of the mouse.
+
 The answer box or score box automatically picks up the par value for each hole and enters it in the score box. Each time the submit button is clicked for a hole the score is added to hole row on the score card. At hole 9 the user is presented with an alert and a congratulations message, their name and their total number of strokes or score. 
 The players name and score are added to the leaderboard on a separate page using the web storage feature of the browser. Each player can see their position on the leaderboard.
 
@@ -104,9 +106,12 @@ In order to keep the user coming back to the site records of each event and asso
 
 ## Technologies Used
 
-  ![JavaScript]
-  ![HTML]
-  ![CSS]
+ -   [HTML5](https://www.w3schools.com/html/)
+ -   [CSS](https://www.w3schools.com/css/default.asp)
+ -   [Javascript](https://www.javascript.com/)
+ 
+
+
 ## Testing
 
 Testing was done 
@@ -114,18 +119,33 @@ Testing was done
 
 This link was causing problems in the footer section not working to display the logos for the social media links. Using a link with version 4.7.0 fixed the problems. I intend to investigate this issue when more time is available.
 
+[StackOverflow](https://stackoverflow.com/questions/48919200/github-pages-only-showing-readme-file) whilst trying to deploy I could only see my ReadMe on Github Pages
+
 ## Deployment
+
+
 
 ## Credits 
 
-I found [w3schools](https://www.w3schools.com//) to be extremely helpful
+- I found [w3schools](https://www.w3schools.com//) to be extremely helpful
 
-[css-tricks](https://css-tricks.com//) was another site I found to be useful
+- [css-tricks](https://css-tricks.com//) was another site I found to be useful
 
-[Bootstrap 4](https://getbootstrap.com/docs/4.1/components/) documents proved to be 
+- [Bootstrap 4](https://getbootstrap.com/docs/4.1/components/) documents proved to be 
 
-[Javascript docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Javascript docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
+
+**Code Snippet Example - continue**
+
+```javascript
+
+for (i = 0; i < 10; i++) {
+  if (i === 3) { continue; }
+  text += "The number is " + i + "<br>";
+}
+
+```
 ## Content
 
 #### Acknowledgements
