@@ -1,7 +1,7 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 <h1 align="center">Interactive Frontend Milestone 2 Project 
-<h2 align="center">Automate your Golfing experience :robot: </h2>
+<h2 align="center">Automate your Golfing experience :robot: :golf: </h2>
 
 
 Here is the deployed version on the site : 
