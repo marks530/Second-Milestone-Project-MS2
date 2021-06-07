@@ -28,22 +28,22 @@ Here is the deployed version on the site :
 	- [Content](#content)
 	- [Acknowledgements](#acknowledgements)
 - [**Footnote**](footnote)    
-    
+## Project Introduction
 
-    ## Project Introduction
-    Golf is played in Ireland by over 180,000 people. This is the number of registered players who are members of golf clubs. It is also played by a huge number of people who are not members of clubs and who play golf regularly. They are very often members of golf societies. Golf societies are groups of amateur/casual golfers that have been formed to enable the society members to be involved in golf tournaments without being actual members of a golf club. Usually societies are formed in a workplace or a social gathering point such as a sports club or a pub.
-    Golf club have only recently(in the last 5 years) updated their IT systems to allow scores and golf handicaps to be collected digitally. This is a great benefit to clubs members. They can look up their scores from all of the tournaments included in the system. This service is provided by a company called [Howdidido](https://www.howdidido.com/Account/Login?returnUrl=%2f) and is so successful is hard to imagine ever being without it.
-    This project is about replicating that service for the casual golfer. 
+Golf is played in Ireland by over 180,000 people. This is the number of registered players who are members of golf clubs. It is also played by a huge number of people who are not members of clubs and who play golf regularly. They are very often members of golf societies. Golf societies are groups of amateur/casual golfers that have been formed to enable the society members to be involved in golf tournaments without being actual members of a golf club. Usually societies are formed in a workplace or a social gathering point such as a sports club or a pub.Golf club have only recently(in the last 5 years) updated their IT systems to allow scores and golf handicaps to be collected digitally. This is a great benefit to clubs members. They can look up their scores from all of the tournaments included in the system. This service is provided by a company called [Howdidido](https://www.howdidido.com/Account/Login?returnUrl=%2f) and is so successful is hard to imagine ever being without it. This project is about replicating that service for the casual golfer. 
 
-    ## Project Goals
+## Project Goals
+
 The goal of the project is to provide a web based application to groups of casual golfers. The application will offer a means of collecting the scores of golf players who have just finished playing a round of golf and wish to submit their scores to calculate the winner of a competition. The player will enter their score (in golf strokes) for each golf hole and be given a total of the strokes for the round.
 As this is a project to be completed for a Milestone Project for the Code Institute the goal is to create an interactive website demonstrating this skills learn in the second phase of the course.
 The project was created using HTML CSS and JavaScript and is ready for further development. I would like very much to develop the project using the new skills that I will learn in the next stages of the course such as adding a database to store user statistics. This can be done back-end applications and using the Python language.
 ## User Goals
+
 The user of the site will be initially be the organizer of the event usually the captain of the golf society. The captain will set up the event and he will then instruct the competitors to log in with their names and be taken to the score entry page.
 This method of collecting scores will give the organizer a immediate update on the players scores and information on who is leading the competition. The player who is entering his score will get a total of the number of strokes and a verification that his score has been entered on the system.
 The player can also view the leaderboard and see how they have fared in the competition.
 ## User Stories
+
 The user/player is introduced to the site by the event organizer.
 When the user connects to the website he/she is presented with event information. The home page contains images of the course they are playing and details of the days timetable.
 When the player has finished their round they connect to the site and click in the "Score Entry" button.
@@ -57,6 +57,7 @@ The answer box or score box automatically picks up the par value for each hole a
 The players name and score are added to the leaderboard on a separate page using the web storage feature of the browser. Each player can see their position on the leaderboard.
 
 ## Site Owner Goals
+
 The site owner is getting a web application which has copied a typical score entry system used in golf clubs and is making it available to casual golfers and golf society members.  In the club environment this service is provided by Howdiddo.com and it works so well it is in constant use. 
 Scores for each golf tournament are stored and available to the user at any time. The site owner is offering an effective professional service to the casual golfer. Golfers casual or club members are hugely interested in their statistics, the score achieved,the number of points scored each round , reducing their handicap, and so on.
 All of which means that golfers players/users(the terms are all interchangeable here) are all regularly referring to the database of their statistics and thereby looking up information from the website. 
@@ -82,6 +83,7 @@ The leaderboard page contains a table with a column for the players names and a 
 
  
 ## Wireframes
+
 I have in included three desktop wireframes, one for iphone and one for ipad
 Desktop Wireframes:
 
@@ -90,40 +92,42 @@ iPad Wireframe:
 iPhone Wireframe:
 ![alt text](https://github.com/marks530/Second-Milestone-Project-MS2/blob/master/wireframes/score_entry_iphone.png "iPhone score entry wireframe")
 ## Features
+
 The site is made up of three html pages supported by a css file and two javascript files. The home page has no interactive features with the exception of a link button. The score entry page gather the players name and their score and the leaderboard page stores the player name and the total score.
 The main features of the site are the interactive score card and leaderboard which allow the user view playing statistics and those of fellow competitors.
 A carousel on the home page can show a range of images of a given course. Many more images can easily be added.
 #### Features Left to Implement 
+
 As the project was implemented using only front-end interactive technologies there is plenty of scope for development by employing backend services. The app was setup with 9 holes and a limit of 9 players. It would be very easy to extend this. But the first task was to get the app to work and then to extend later. I will look at improving the user experience by experimenting with different layouts and use of buttons 
 
 In order to keep the user coming back to the site records of each event and associated statistics could be made available. The user could look up every time a round of golf was played and the individual scores at the time. Using the historical data a host of other useful statistics can be calculated. The user can measure their performance over time. As with similar sites relevant advertisements can be displayed to the user and an e-commerce utility could be added to the site.Using the landing page with its carousel and banner image it is possible to show multiple images of a given course and it would be a feature that could be extended over time. Templates could be set up for any number of different courses
-  ## Technologies Used
+
+## Technologies Used
+
   ![JavaScript]
   ![HTML]
   ![CSS]
-  ## Testing
+## Testing
+
 Testing was done 
-  
-  ## Bugs
-  This link was causing problems in the footer section not working to display the logos for the social media links. Using a link with version 4.7.0 fixed the problems. I intend to investigate this issue when more time is available.
-  
-  ## Deployment
-  
-  ## Credits 
+## Bugs
 
-  I found [w3schools](https://www.w3schools.com//) to be extremely helpful
+This link was causing problems in the footer section not working to display the logos for the social media links. Using a link with version 4.7.0 fixed the problems. I intend to investigate this issue when more time is available.
 
-  [css-tricks](https://css-tricks.com//) was another site I found to be useful
+## Deployment
 
-  [Bootstrap 4](https://getbootstrap.com/docs/4.1/components/) documents proved to be 
+## Credits 
 
-  [Javascript docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+I found [w3schools](https://www.w3schools.com//) to be extremely helpful
 
+[css-tricks](https://css-tricks.com//) was another site I found to be useful
 
-  
-  ## Content
-  
-  #### Acknowledgements
-  
-  
-  ## Footnote
+[Bootstrap 4](https://getbootstrap.com/docs/4.1/components/) documents proved to be 
+
+[Javascript docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+## Content
+
+#### Acknowledgements
+
+## Footnote
