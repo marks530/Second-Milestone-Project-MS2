@@ -122,9 +122,15 @@ In order to keep the user coming back to the site records of each event and asso
 
 ## Testing
 
-Testing was done 
+Completed testing of all the html code at the following address [W3 Validator](https://validator.w3.org/nu/#textarea and the css.style file using the css checkbox on the same page 
+On each page I evaluated the navbar, from Desktop to Mobile, watching the behaviour of the dropdown menu on each of the different screens. I also ensured the hamburger dropdown menu was working correctly and in position once it was visible on screen.
+The hamburger element proved to be troublesome this time around as it did not work on all the pages only the landing page. I discover this was because I had used different versions of the Bootstrap CDN on each page
+During testing I discovered that on the iPad in Chrome Dev Tools the score entry section is jumbled yet it works on an iPad Pro. I was able to correct this by modifying the css rules
+ 
+
 ## Bugs
-During testing I discovered that on the iPad in Chrome Dev Tools the score entry section is jumbled yet it works on an iPad Pro. I didn't have time to correct this before the deadline  
+
+I had some issues with the bootstrap link and did not have enough time to resolve all of them
 This link was causing problems in the footer section not working to display the logos for the social media links. Using a link with version 4.7.0 fixed the problems. I intend to investigate this issue when more time is available.
 
 [StackOverflow](https://stackoverflow.com/questions/48919200/github-pages-only-showing-readme-file) whilst trying to deploy I could only see my ReadMe on Github Pages
