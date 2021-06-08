@@ -137,6 +137,7 @@ This link was causing problems in the footer section not working to display the 
 There is still a problem with the iphone screen size with the with the buttons overlapping somewhat.
 Unfortunately I will not have time to resolve this issue before the deployment. 
 However I do intend to get to the bottom of the matter
+Another issue is the logos for the social media links are not showing on the leaderboard and the score entry page. I will also coorect this with more time
 
 [StackOverflow](https://stackoverflow.com/questions/48919200/github-pages-only-showing-readme-file) whilst trying to deploy I could only see my ReadMe on Github Pages
 
