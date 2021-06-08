@@ -89,7 +89,15 @@ The leaderboard page contains a table with a column for the players names and a 
 I have in included three desktop wireframes, one for iphone and one for ipad
 Desktop Wireframes:
 
+![alt text](https://github.com/marks530/Second-Milestone-Project-MS2/blob/a16527227dd48bca4d76d307e7a5ad2675357ea6/wireframes/index_desktop_wireframe.png)
+
+![alt text](https://github.com/marks530/Second-Milestone-Project-MS2/blob/a16527227dd48bca4d76d307e7a5ad2675357ea6/wireframes/score_entry_desktop_wireframe.png)
+
+![alt text](https://github.com/marks530/Second-Milestone-Project-MS2/blob/a16527227dd48bca4d76d307e7a5ad2675357ea6/wireframes/leaderboard_desktop_wireframe.png)
+
 iPad Wireframe:
+
+![alt text](https://github.com/marks530/Second-Milestone-Project-MS2/blob/a16527227dd48bca4d76d307e7a5ad2675357ea6/wireframes/ipad_index_desktop_wireframe.png)
 
 iPhone Wireframe:
 ![alt text](https://github.com/marks530/Second-Milestone-Project-MS2/blob/master/wireframes/score_entry_iphone.png "iPhone score entry wireframe")
