@@ -154,8 +154,6 @@ git status
 
 ``` 
 
-
-
 ## Credits 
 
 - I found [w3schools](https://www.w3schools.com//) to be extremely helpful
@@ -167,18 +165,32 @@ git status
 - [Javascript docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 
+
+The structure of the Maths game proved to be ideal for the score entry system I needed for the site so this area  is based on that game. So credit to Matt Rudge for that
+The score card and leaderboard are based on the tables found in the Jquery section of the course 
+## Content
+
+The image used in the site are almost all my own with the exception of one image taken from 
+![golf images](https://unsplash.com/s/photos/golf)
+
 **Code Snippet Example - continue**
 
 ```javascript
 
-for (i = 0; i < 10; i++) {
-  if (i === 3) { continue; }
-  text += "The number is " + i + "<br>";
+function saveScores() {
+    let scores = localStorage.getItem(LOCAL_STORAGE_GAME_SCORES);
+    if (!scores)
+        scores = JSON.stringify({}); //JSON.stringify convert Javascript objet to a JSON object
+    let scoresObject = JSON.parse(scores); //JSON.parse convert JSON objet to a Javascript object
+    let name = document.getElementById('name').value;
+    scoresObject[name] = getArrayTotal();
+    localStorage.setItem(LOCAL_STORAGE_GAME_SCORES, JSON.stringify(scoresObject))
 }
 
 ```
-## Content
 
-#### Acknowledgements
 
 ## Footnote
+
+I found this project challenging and very time consuming. I spent the vast bulk of the time writing and testing my JavaScript code and that was at the expense of the look and feel of the site. I intend to work on the project in the coming weeks while it is still fresh in my mind.
+Nevertheless I found the whole project both fascinating and frustrating but in the had a real sense of achievement 
