@@ -134,6 +134,9 @@ Javascript code was checked on
 
 I had some issues with the bootstrap link and did not have enough time to resolve all of them
 This link was causing problems in the footer section not working to display the logos for the social media links. Using a link with version 4.7.0 fixed the problems on one of the pages. I intend to investigate this issue when more time is available.
+There is still a problem with the iphone screen size with the with the buttons overlapping somewhat.
+Unfortunately I will not have time to resolve this issue before the deployment. 
+However I do intend to get to the bottom of the matter
 
 [StackOverflow](https://stackoverflow.com/questions/48919200/github-pages-only-showing-readme-file) whilst trying to deploy I could only see my ReadMe on Github Pages
 
