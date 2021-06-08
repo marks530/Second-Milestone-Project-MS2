@@ -102,7 +102,8 @@ btn.onclick = function() {
         holeCount.innerHTML = count + 1;
     } else {
 
-        alert("Congratulations, " + getInputValue() + " you got a total of " + getArrayTotal());
+        alert("Congratulations, " + getInputValue() + " you got a total of " + getArrayTotal() +
+            ".  Go to the Leaderboard page to check your score");
         displayTotal();
         saveScores();
         init();
