@@ -141,7 +141,7 @@ Create Github repo
 
 add links here to deployed site 
 
-![deployed site](https://marks530.github.io/Second-Milestone-Project-MS2/index.html)
+  - [deployed site](https://marks530.github.io/Second-Milestone-Project-MS2/index.html)
 
 
 **CLI commands** 
